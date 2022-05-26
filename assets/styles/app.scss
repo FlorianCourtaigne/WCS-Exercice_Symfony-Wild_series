@@ -1,5 +1,13 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: blue;
+    background-color: lightgrey;
+}
+
+.navbar{
+    background-color: rgb(55, 45, 127);
+}
+
+.nav-link {
+    color : rgb(185,230,214); 
 }
