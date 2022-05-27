@@ -2,41 +2,16 @@
 
 namespace App\DataFixtures;
 
-use App\Entity\Category;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Persistence\ObjectManager;
 
-class CategoryFixtures extends Fixture
+class AppFixtures extends Fixture
 {
-
-
-    public function load(ObjectManager $manager)
+    public function load(ObjectManager $manager): void
     {
-        $category = new Category();
-        $category->setName('Aventure');
-        $manager->persist($category);
+        // $product = new Product();
+        // $manager->persist($product);
+
         $manager->flush();
     }
-
-
-        // CONST CATEGORIES = [
-    //     'Action',
-    //     'Aventure',
-    //     'Animation',
-    //     'Fantastique',
-    //     'Horreur'
-    // ];
-    
-    // public function load(ObjectManager $manager)
-    // {
-    //     foreach (self::CATEGORY as $key => $categoryName) {
-    //         $category = new Category();
-    //         $category->setName($categoryName);
-
-    //         $manager->persist($category);
-    //     }
-
-    //     $manager->flush();
-    // }
-
 }

@@ -299,4 +299,231 @@ Modifications qui ne seront pas validées :
   (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
   (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
 	[31mmodifié :         composer.json[m
-	[31mmodifié :         compo
+	[31mmodifié :         composer.lock[m
+	[31mmodifié :         config/bundles.php[m
+	[31mmodifié :         symfony.lock[m
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	[31mcache:clear[m
+	[31msrc/DataFixtures/[m
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m"adding fixtures"[?1l>[?2004l
+]2;git commit -m"adding fixtures"]1;git[main 5f4fd0c] adding fixtures
+ 6 files changed, 527 insertions(+), 1 deletion(-)
+ create mode 100644 cache:clear
+ create mode 100644 src/DataFixtures/AppFixtures.php
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitÉnumération des objets: 18, fait.
+Décompte des objets:   5% (1/18)Décompte des objets:  11% (2/18)Décompte des objets:  16% (3/18)Décompte des objets:  22% (4/18)Décompte des objets:  27% (5/18)Décompte des objets:  33% (6/18)Décompte des objets:  38% (7/18)Décompte des objets:  44% (8/18)Décompte des objets:  50% (9/18)Décompte des objets:  55% (10/18)Décompte des objets:  61% (11/18)Décompte des objets:  66% (12/18)Décompte des objets:  72% (13/18)Décompte des objets:  77% (14/18)Décompte des objets:  83% (15/18)Décompte des objets:  88% (16/18)Décompte des objets:  94% (17/18)Décompte des objets: 100% (18/18)Décompte des objets: 100% (18/18), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:  10% (1/10)Compression des objets:  20% (2/10)Compression des objets:  30% (3/10)Compression des objets:  40% (4/10)Compression des objets:  50% (5/10)Compression des objets:  60% (6/10)Compression des objets:  70% (7/10)Compression des objets:  80% (8/10)Compression des objets:  90% (9/10)Compression des objets: 100% (10/10)Compression des objets: 100% (10/10), fait.
+Écriture des objets:   9% (1/11)Écriture des objets:  18% (2/11)Écriture des objets:  27% (3/11)Écriture des objets:  36% (4/11)Écriture des objets:  45% (5/11)Écriture des objets:  54% (6/11)Écriture des objets:  63% (7/11)Écriture des objets:  72% (8/11)Écriture des objets:  81% (9/11)Écriture des objets:  90% (10/11)Écriture des objets: 100% (11/11)Écriture des objets: 100% (11/11), 5.42 Kio | 925.00 Kio/s, fait.
+Total 11 (delta 7), réutilisés 0 (delta 0)
+remote: Resolving deltas:   0% (0/7)[Kremote: Resolving deltas:  14% (1/7)[Kremote: Resolving deltas:  28% (2/7)[Kremote: Resolving deltas:  42% (3/7)[Kremote: Resolving deltas:  57% (4/7)[Kremote: Resolving deltas:  71% (5/7)[Kremote: Resolving deltas:  85% (6/7)[Kremote: Resolving deltas: 100% (7/7)[Kremote: Resolving deltas: 100% (7/7), completed with 7 local objects.[K
+To github.com:FlorianCourtaigne/Wild_series.git
+   885fc3d..5f4fd0c  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hgit pushcommit -m"adding fixtures"[26Dadd .                     [21Dstatus[10Dphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[38Dgit push                              [30Dcommit -m"adding fixtures"[26Dadd .                     [21Dstatus[10Dphp bin/console doctrine:fixtures:load [7m--purge-with-truncate[27m[21D[27m-[27m-[27mp[27mu[27mr[27mg[27me[27m-[27mw[27mi[27mt[27mh[27m-[27mt[27mr[27mu[27mn[27mc[27ma[27mt[27me[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[1C-[P[20C [22D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load--purge-with-truncate]1;php
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  Command "doctrine:fixtures:load--purge-with-truncate" is not defined.                                                                                                          [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  Did you mean one of these?                                                                                                                                                     [39;49m
+[37;41m      doctrine:fixtures:load                                                                                                                                                     [39;49m
+[37;41m      make:fixtures                                                                                                                                                              [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  You may be looking for a command provided by the "DoctrineFixturesBundle" which is currently not installed. Try running "composer require doctrine/doctrine-fixtures-bundle -  [39;49m
+[37;41m  -dev".                                                                                                                                                                         [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load--purge-with-truncate --purge-with-truncate[21D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate                      d[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn CategoryFixtures.php line 32:[39m
+[37;41m                                                                  [39;49m
+[37;41m  Undefined constant App\DataFixtures\CategoryFixtures::CATEGORY  [39;49m
+[37;41m                                                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load                                  p  php bin/console doctrine:fixtures:load --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[60D                                                            [60Dphp bin/console doctrine:fixtures:load --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[21D                     [22D[38Dgit push                              [30D[8Dphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate                   epp   append[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;php
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --appendpurge-with-truncate                                                       p  php bin/console doctrine:fixtures:load --purge-with-truncate[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[19Dappend             [13Dpurge-with-truncate[21D                     [22D --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[21D                     [22D[38Dgit push                              [30Dcommit -m"adding fixtures"[26Dadd .                     [21Dstatus[10Dphp bin/console doctrine:fixtures:load                                  p  ssymfony conosle    sole make:fixture[?1l>[?2004l
+]2;symfony console make:fixture]1;symfony
+ [32mThe class name of the fixtures to create (e.g. [39m[33mAppFixtures[39m[32m)[39m:
+ > 
+
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] This value cannot be blank.                                                                                    [39;49m
+[37;41m                                                                                                                        [39;49m
+
+ [32mThe class name of the fixtures to create (e.g. [39m[33mAppFixtures[39m[32m)[39m:
+ > y
+
+ [34mcreated[39m: src/DataFixtures/Y.php
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Open your new fixtures class and start customizing it.
+ Load your fixtures by running: [33mphp bin/console doctrine:fixtures:load[39m
+ Docs: [33mhttps://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:fixture[?1l>[?2004l
+]2;symfony console make:fixture]1;symfony
+ [32mThe class name of the fixtures to create (e.g. [39m[33mAppFixtures[39m[32m)[39m:
+ > AppFixtures
+
+ [34mcreated[39m: src/DataFixtures/AppFixtures.php
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Open your new fixtures class and start customizing it.
+ Load your fixtures by running: [33mphp bin/console doctrine:fixtures:load[39m
+ Docs: [33mhttps://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:fixture                        s  ggit status[?1l>[?2004l
+]2;git status]1;gitSur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	[31mmodifié :         cache:clear[m
+	[31mmodifié :         src/DataFixtures/AppFixtures.php[m
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	[31msrc/DataFixtures/CategoryFixtures.php[m
+
+aucune modification n'
