@@ -1090,4 +1090,71 @@ zsh: parse error near `(self::CATEGORIES as...'
    [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
 [1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
 ]2;php bin/console doctrine:fixtures:load]1;php
- [32mCareful,
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures[21Dappend               [15D                                          p  d ggi t add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit commit -m"working on   on  fixtures"[?1l>[?2004l
+]2;git commit -m"working on  fixtures"]1;git[main c6e5e14] working on  fixtures
+ 3 files changed, 479 insertions(+), 4 deletions(-)
+ create mode 100644 src/DataFixtures/ProgramFixtures.php
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitÉnumération des objets: 12, fait.
+Décompte des objets:   8% (1/12)Décompte des objets:  16% (2/12)Décompte des objets:  25% (3/12)Décompte des objets:  33% (4/12)Décompte des objets:  41% (5/12)Décompte des objets:  50% (6/12)Décompte des objets:  58% (7/12)Décompte des objets:  66% (8/12)Décompte des objets:  75% (9/12)Décompte des objets:  83% (10/12)Décompte des objets:  91% (11/12)Décompte des objets: 100% (12/12)Décompte des objets: 100% (12/12), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:  14% (1/7)Compression des objets:  28% (2/7)Compression des objets:  42% (3/7)Compression des objets:  57% (4/7)Compression des objets:  71% (5/7)Compression des objets:  85% (6/7)Compression des objets: 100% (7/7)Compression des objets: 100% (7/7), fait.
+Écriture des objets:  14% (1/7)Écriture des objets:  28% (2/7)Écriture des objets:  42% (3/7)Écriture des objets:  57% (4/7)Écriture des objets:  71% (5/7)Écriture des objets:  85% (6/7)Écriture des objets: 100% (7/7)Écriture des objets: 100% (7/7), 6.81 Kio | 2.27 Mio/s, fait.
+Total 7 (delta 4), réutilisés 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:FlorianCourtaigne/Wild_series.git
+   8900ae4..c6e5e14  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hgit pushcommit -m"working on  fixtures"[31Dadd .               [2C         [26D[9Dphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[38Dgit push                              [30Dcommit -m"working on  fixtures"                            g  git add .[9Dphp bin/console doctrine:fixtures:load --group=ProgramFixtures[23D                       [24D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+
+[33mIn ExceptionConverter.php line 116:[39m
+[37;41m                                                                                                                                      [39;49m
+[37;41m  An exception occurred while executing a query: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null  [39;49m
+[37;41m                                                                                                                                      [39;49m
+
+[33mIn Exception.php line 30:[39m
+[37;41m                                                                                       [39;49m
+[37;41m  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null  [39;49m
+[37;41m                                                                                       [39;49m
+
+[33mIn Statement.php line 101:[39m
+[37;41m                                                                                       [39;49m
+[37;41m  SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'title' cannot be null  [39;49m
+[37;41m                                                                                       [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m
