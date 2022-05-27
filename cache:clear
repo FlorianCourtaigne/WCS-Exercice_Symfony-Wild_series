@@ -646,4 +646,448 @@ To github.com:FlorianCourtaigne/Wild_series.git
 ]2;symfony doctrine:migrations:migrate]1;symfony[37;41m                                                         [39;49m
 [37;41m  Command "doctrine:migrations:migrate" does not exist.  [39;49m
 [37;41m                                                         [39;49m
-[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony doctrine:migrations:migratecdoctrine:migrations:migrate[27Dodoctrine:migrations:migrate[27Dndoctrine:migrations:migrate[27Dsdoctrine:migrations:migrate[27Dodoctrine:migrations:migrate[27Dldoctrine:migrations:migrate[27Dedoctrine:migrations:migrate[27D doctrine:migrations:migrate[27D[?1l>[?2004l
+]2;symfony console doctrine:migrations:migrate]1;symfony
+ [32mWARNING! You are about to execute a migration in database "wild_series" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > no
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Migration cancelled!                                                                                           [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console doctrine:migrations:migrate[?1l>[?2004l
+]2;symfony console doctrine:migrations:migrate]1;symfony
+ [32mWARNING! You are about to execute a migration in database "wild_series" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+[32m[notice] Migrating [39m[33mup[39m[32m to [39m[33mDoctrineMigrations\Version20220527133833[39m
+[32m[notice] finished in [39m[33m438.3[39m[32mms, used [39m[33m22M[39m[32m memory, [39m[33m1[39m[32m migrations executed, [39m[33m3[39m[32m sql queries[39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console doctrine:migrations:migrate[35Dd[8P[26C        [8D[27Dconsole make:migration     ation [8Dentity  [27Dgit push                   [19Dcommit -m"fixing and renaming fixtures with the name of the entity"[67Dstatus                                                             [61Dadd . [?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hgit add .[9Dsymfony console doctrine:migrations:migrate[35Dd[8P[26C        [8D[27Dconsole make:migration     ation [8Dentity  [27Dgit push                   [19Dcommit -m"fixing and renaming fixtures with the name of the entity"" " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " " a"d"d"i"n"g" "r"e"l"a"t"i"o"n"n"a"" " " " o"n" "b"e"" " M"a"n"y"t"o"O"n"e" "f"r"o"m" "P"r"o"g"r"a"m" "t"o" "c"a"t"e"" " " " C"a"t"e"g"o"r"y" "w"i"t"h" "d"o"c"t"r"i"n"e"[?1l>[?2004l
+]2;git commit ]1;git[main 8900ae4] adding relation ManytoOne from Program to Category with doctrine
+ 3 files changed, 172 insertions(+), 1 deletion(-)
+ create mode 100644 migrations/Version20220527133833.php
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit puh sh[?1l>[?2004l
+]2;git push]1;gitÉnumération des objets: 14, fait.
+Décompte des objets:   7% (1/14)Décompte des objets:  14% (2/14)Décompte des objets:  21% (3/14)Décompte des objets:  28% (4/14)Décompte des objets:  35% (5/14)Décompte des objets:  42% (6/14)Décompte des objets:  50% (7/14)Décompte des objets:  57% (8/14)Décompte des objets:  64% (9/14)Décompte des objets:  71% (10/14)Décompte des objets:  78% (11/14)Décompte des objets:  85% (12/14)Décompte des objets:  92% (13/14)Décompte des objets: 100% (14/14)Décompte des objets: 100% (14/14), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:  12% (1/8)Compression des objets:  25% (2/8)Compression des objets:  37% (3/8)Compression des objets:  50% (4/8)Compression des objets:  62% (5/8)Compression des objets:  75% (6/8)Compression des objets:  87% (7/8)Compression des objets: 100% (8/8)Compression des objets: 100% (8/8), fait.
+Écriture des objets:  12% (1/8)Écriture des objets:  25% (2/8)Écriture des objets:  37% (3/8)Écriture des objets:  50% (4/8)Écriture des objets:  62% (5/8)Écriture des objets:  75% (6/8)Écriture des objets:  87% (7/8)Écriture des objets: 100% (8/8)Écriture des objets: 100% (8/8), 3.18 Kio | 813.00 Kio/s, fait.
+Total 8 (delta 6), réutilisés 0 (delta 0)
+remote: Resolving deltas:   0% (0/6)[Kremote: Resolving deltas:  16% (1/6)[Kremote: Resolving deltas:  33% (2/6)[Kremote: Resolving deltas:  50% (3/6)[Kremote: Resolving deltas:  66% (4/6)[Kremote: Resolving deltas:  83% (5/6)[Kremote: Resolving deltas: 100% (6/6)[Kremote: Resolving deltas: 100% (6/6), completed with 6 local objects.[K
+To github.com:FlorianCourtaigne/Wild_series.git
+   03d1840..8900ae4  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hgit pushcommit -m"adding relation ManytoOne from Program to Category with doctrine"[75Dadd .                                                                      [70D[9Dsymfony console doctrine:migrations:migrate[35Dd[8P[26C        [8D[27Dconsole make:migration     [22Ddoctrin[4P[11Cs:migrate[27Dconsole make:migration     ation [8Dentity  [27Dgit push                   [19Dcommit -m"fixing and renaming fixtures with the name of the entity"[67Dstatus                                                             [61Dadd . status[10Dsymfony console make:fixture[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[19Dappend             [13Dpurge-with-truncate[19Dappend             [13Dpurge-with-truncate[60Dsymfony [8Cmak[4P[9C                                [32D[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[19Dappend             [13D        [?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[38Dgit push                              [30Dcommit -m"adding relation ManytoOne from Program to Category with doctrine"[75Dadd .                                                                      [70D[9Dsymfony console doctrine:migrations:migrate[35Dd[8P[26C        [8D[27Dconsole make:migration     ation [8Dentity  [27Dgit push                   [19Dcommit -m"fixing and renaming fixtures with the name of the entity"[67Dstatus                                                             [61Dadd .      g  ssymfony console make:fis xtures[?1l>[?2004l
+]2;symfony console make:fixtures]1;symfony
+ [32mThe class name of the fixtures to create (e.g. [39m[33mAppFixtures[39m[32m)[39m:
+ > Program
+
+ [34mcreated[39m: src/DataFixtures/Program.php
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Open your new fixtures class and start customizing it.
+ Load your fixtures by running: [33mphp bin/console doctrine:fixtures:load[39m
+ Docs: [33mhttps://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:fixtures[?1l>[?2004l
+]2;symfony console make:fixtures]1;symfony
+ [32mThe class name of the fixtures to create (e.g. [39m[33mAppFixtures[39m[32m)[39m:
+ > ProgramFixtures
+
+ [34mcreated[39m: src/DataFixtures/ProgramFixtures.php
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Open your new fixtures class and start customizing it.
+ Load your fixtures by running: [33mphp bin/console doctrine:fixtures:load[39m
+ Docs: [33mhttps://symfony.com/doc/current/bundles/DoctrineFixturesBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:fixtures[29Dphp bin/[8Cdoctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[38Dsymfony [8Cmak[4P[10C         [9D[29Dphp bin/[8Cdoctrine:fixtures:load[38Dgit push                              [30Dcommit -m"adding relation ManytoOne from Program to Category with doctrine"[75Dadd .                                                                      [70D[9Dsymfony console doctrine:migrations:migrate[35Dd[8P[26C        [8D[27Dconsole make:migration     ation [8Dentity  [27Dgit push                   [19Dcommit -m"fixing and renaming fixtures with the name of the entity"[67Dstatus                                                             [61Dadd . status[10Dsymfony console make:fixture[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[19Dappend             [13Dpurge-with-truncate[21D                     [22D --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[21D                     [22D[38Dgit push                              [30Dcommit -m"adding fixtures"[26Dadd .                     [21Dstatus[10Dphp bin/console doctrine:fixtures:load[38Dcomposer require --dev orm-fixtures   [35Ddoctrine/doctrine[9P[9C-bundle  *[34Dphp b[2C/console doctrine:fixtures:load src/DataFixtures/[17D--append=src/DataFixtures/[24Dfixtures=src/DataFixtures/[26Dappend                    [20D[8D        [9D[38Dscript cache:clear                    [20D[18Dphp bin/console doctrine:fixtures:load[38Dcomposer require --dev orm-fixtures   [35Dphp bin/console doctrine:fixtures:load[38Dscript cache:clear                    [20D[18Dphp bin/console doctrine:fixtures:load --appendfixtures=src/DataFixtures/[26Dappend=[P[P[17C  [26D[9P[17C         [9D[56Ddoctr[2Ce/doctrine-fixtures-bundle*                      [22D[34Dphp b[2C/console doctrine:fixtures:load src/DataFixtures/[17D--append=src/DataFixtures/[26D[9P[17C         [9D[56Ddoctr[2Ce/doctrine-fixtures-bundle*                      [22D [33Dcomposer require --dev orm-fixtures[35Dphp bin/console doctrine:fixtures:load[38Dgit status                            [28Dadd . commit -m"adding fixtures"[26Dpush                      [22D[8Dphp bin/console doctrine:fixtures:load --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[21D                     [22D --purge-with-truncate[19Dappend             [13Dpurge-with-truncate[60Dsymfony [8Cmak[4P[9C                                [32D[28Dgit status                  [18D[10Dsymfony console make:fixture[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[60Dsymfony [8Cmak[4P[9C                                [32D[28Dgit status                  [18Dadd . statuscommit -m"fixing and renaming fixtures with the name of the entity"[67Dpush                                                               [63D[8Dsymfony console make:entitymigationration[22Ddoctrin[4P[11Cs:migrate[?1l>[?2004l
+]2;symfony doctrine:migrations:migrate]1;symfony[37;41m                                                         [39;49m
+[37;41m  Command "doctrine:migrations:migrate" does not exist.  [39;49m
+[37;41m                                                         [39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony doctrine:migrations:migrate[35Dphp bin/console doctrine:fixtures:load[38Dsymfony [8Cmak[4P[10C         [9D[29Dphp bin/[8Cdoctrine:fixtures:load[38Dgit push                              [30Dcommit -m"adding relation ManytoOne from Program to Category with doctrine"[75Dadd .                                                                      [70D[9Dsymfony console doctrine:migrations:migrate[35Dd[8P[26C        [8D[27Dconsole make:migration     ation [8Dentity  [27Dgit push                   [19Dcommit -m"fixing and renaming fixtures with the name of the entity"[67Dstatus                                                             [61Dadd . status[10Dsymfony console make:fixture[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[19Dappend             [13Dpurge-with-truncate[21D                     [22D --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[21D                     [22D[38Dgit push                              [30Dcommit -m"adding fixtures"[26Dadd .                     [21Dstatus[10Dphp bin/console doctrine:fixtures:load[38Dcomposer require --dev orm-fixtures   [35Ddoctrine/doctrine[9P[9C-bundle  *[34Dphp b[2C/console doctrine:fixtures:load src/DataFixtures/[17D--append=src/DataFixtures/[24Dfixtures=src/DataFixtures/[26Dappend=[P[P[17C  [26D[9P[17C         [9D[56Ddoctr[2Ce/doctrine-fixtures-bundle*                      [22D [33Dcomposer require --dev orm-fixtures[35Dphp bin/console doctrine:fixtures:load[38Dgit status                            [28Dadd . commit -m"adding fixtures"[26Dpush                      [22D[8Dphp bin/console doctrine:fixtures:load --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[21D                     [22D --purge-with-truncate[19Dappend             [13Dpurge-with-truncate[60Dsymfony [8Cmak[4P[9C                                [32D[28Dgit status                  [18Dadd . statuscommit -m"fixing and renaming fixtures with the name of the entity"[67Dpush                                                               [63D[8Dsymfony console make:entitymigationration[22Ddoctrin[4P[11Cs:migrate[27Dconsole doctrine:migrations:migrate[?1l>[?2004l
+]2;symfony console doctrine:migrations:migrate]1;symfony
+ [32mWARNING! You are about to execute a migration in database "wild_series" that could result in schema changes and data loss. Are you sure you wish to continue? (yes/no)[39m [[33myes[39m]:
+ > y
+
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] Already at the latest version ("DoctrineMigrations\Version20220527133833")                                        [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7m        $manager->flush();[27m[26D[27m [27m [27m [27m [27m [27m [27m [27m [27m$[27mm[27ma[27mn[27ma[27mg[27me[27mr[27m-[27m>[27mf[27ml[27mu[27ms[27mh[27m([27m)[27m                  [7msymfony console doctrine:schema:validate[27m[40D[27ms[27my[27mm[27mf[27mo[27mn[27my[27m [27mc[27mo[27mn[27ms[27mo[27ml[27me[27m [27md[27mo[27mc[27mt[27mr[27mi[27mn[27me[27m:[27ms[27mc[27mh[27me[27mm[27ma[27m:[27mv[27ma[27ml[27mi[27md[27ma[27mt[27me[?1l>[?2004l
+]2;symfony console doctrine:schema:validate]1;symfony
+[33mMapping[39m
+[33m-------[39m
+
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] The mapping files are correct.                                                                                    [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[33mDatabase[39m
+[33m--------[39m
+
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] The database schema is in sync with the mapping files.                                                            [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console doctrine:schema:validate[15Dmigrations:migrate[35Dd[8P[26C        [8D                                s  php bin/console doctrine:fixtures:load[7mphp bin/console doctrine:fixtures:load[27m[38D[27mp[27mh[27mp[27m [27mb[27mi[27mn[27m/[27mc[27mo[27mn[27ms[27mo[27ml[27me[27m [27md[27mo[27mc[27mt[27mr[27mi[27mn[27me[27m:[27mf[27mi[27mx[27mt[27mu[27mr[27me[27ms[27m:[27ml[27mo[27ma[27m                                     [7m--purge-with-truncate[27m[21D[27m-[27m-[27mp[27mu[27mr[27mg[27me[27m-[27mw[27mi[27mt[27mh[27m-[27mt[27mr[27mu[27mn[27mc[27ma[27mt[27me[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[1C-[P[20C [22D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load--purge-with-truncate]1;php
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  Command "doctrine:fixtures:load--purge-with-truncate" is not defined.                                                                                                          [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  Did you mean one of these?                                                                                                                                                     [39;49m
+[37;41m      doctrine:fixtures:load                                                                                                                                                     [39;49m
+[37;41m      make:fixtures                                                                                                                                                              [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  You may be looking for a command provided by the "DoctrineFixturesBundle" which is currently not installed. Try running "composer require doctrine/doctrine-fixtures-bundle -  [39;49m
+[37;41m  -dev".                                                                                                                                                                         [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load--purge-with-truncate --purge-with-truncate[21D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[60Dsymfony [17Cschema:validate                    [20D[?1l>[?2004l
+]2;symfony console doctrine:schema:validate]1;symfony
+[33mMapping[39m
+[33m-------[39m
+
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] The mapping files are correct.                                                                                    [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[33mDatabase[39m
+[33m--------[39m
+
+[30;42m                                                                                                                        [39;49m
+[30;42m [OK] The database schema is in sync with the mapping files.                                                            [39;49m
+[30;42m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console doctrine:schema:validate[40Dphp bin/[17Cfixtures:load --purge-with-truncate[22D-[P[20C [21D --purge-with-truncate[60Dsymfony [17Cschema:validate                    [20D[15Dmigrations:migrate[35Dd[8P[26C        [8D[35Dphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;php
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append[8D        [9D[38Dsymfony [17Cschema:validate[40Dphp bin/[17Cfixtures:load --purge-with-truncate[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --purge-with-truncate]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+
+[33mIn Connection.php line 123:[39m
+[37;41m                                  [39;49m
+[37;41m  There is no active transaction  [39;49m
+[37;41m                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --purge-with-truncate[19Dappend             [13D[8D        [9D[38Dsymfony [17Cschema:validate[40Dphp bin/[17Cfixtures:load   --appendpurge-with-truncate[19Dappend             [13D[8D        [9D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;phpPHP Fatal error:  Class App\DataFixtures\CategoryFixtures contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Doctrine\Common\DataFixtures\FixtureInterface::load) in /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php on line 9
+PHP Stack trace:
+PHP   1. {main}() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/bin/console:0
+PHP   2. require_once() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/bin/console:11
+PHP   3. Symfony\Component\Runtime\Runner\Symfony\ConsoleApplicationRunner->run() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/autoload_runtime.php:29
+PHP   4. Symfony\Component\Console\Application->run($input = class Symfony\Component\Console\Input\ArgvInput { protected $definition = class Symfony\Component\Console\Input\InputDefinition { private array $arguments = [...]; private int $requiredCount = 0; private $lastArrayArgument = NULL; private $lastOptionalArgument = NULL; private array $options = [...]; private array $negations = [...]; private array $shortcuts = [...] }; protected $stream = NULL; protected $options = []; protected $arguments = []; protected $interactive = TRUE; private array $tokens = [0 => 'doctrine:fixtures:load', 1 => '--append']; private array $parsed = *uninitialized* }, $output = class Symfony\Component\Console\Output\ConsoleOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { private bool $decorated = TRUE; private array $styles = [...]; private $styleStack = class Symfony\Component\Console\Formatter\OutputFormatterStyleStack { ... } }; private ${Symfony\Component\Console\Output\StreamOutput}stream = resource(2) of type (stream); private $stderr = class Symfony\Component\Console\Output\StreamOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { ... }; private $stream = resource(3) of type (stream) }; private array $consoleSectionOutputs = [] }) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php:54
+PHP   5. Symfony\Bundle\FrameworkBundle\Console\Application->doRun($input = class Symfony\Component\Console\Input\ArgvInput { protected $definition = class Symfony\Component\Console\Input\InputDefinition { private array $arguments = [...]; private int $requiredCount = 0; private $lastArrayArgument = NULL; private $lastOptionalArgument = NULL; private array $options = [...]; private array $negations = [...]; private array $shortcuts = [...] }; protected $stream = NULL; protected $options = []; protected $arguments = []; protected $interactive = TRUE; private array $tokens = [0 => 'doctrine:fixtures:load', 1 => '--append']; private array $parsed = *uninitialized* }, $output = class Symfony\Component\Console\Output\ConsoleOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { private bool $decorated = TRUE; private array $styles = [...]; private $styleStack = class Symfony\Component\Console\Formatter\OutputFormatterStyleStack { ... } }; private ${Symfony\Component\Console\Output\StreamOutput}stream = resource(2) of type (stream); private $stderr = class Symfony\Component\Console\Output\StreamOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { ... }; private $stream = resource(3) of type (stream) }; private array $consoleSectionOutputs = [] }) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/console/Application.php:171
+PHP   6. Symfony\Bundle\FrameworkBundle\Console\Application->registerCommands() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/framework-bundle/Console/Application.php:72
+PHP   7. Symfony\Component\HttpKernel\Kernel->boot() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/framework-bundle/Console/Application.php:166
+PHP   8. Symfony\Component\HttpKernel\Kernel->preBoot() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php:128
+PHP   9. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php:767
+PHP  10. Symfony\Component\Config\ConfigCache->isFresh() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php:446
+PHP  11. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/ConfigCache.php:58
+PHP  12. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh($resource = class Symfony\Component\Config\Resource\ReflectionClassResource { private array $files = ['/home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php' => NULL]; private string $className = 'App\\DataFixtures\\CategoryFixtures'; private ReflectionClass $classReflector = *uninitialized*; private array $excludedVendors = []; private string $hash = '861221365cc369139e8e8870cc846be1' }, $timestamp = 1653662153) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/ResourceCheckerConfigCache.php:93
+PHP  13. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh($timestamp = 1653662153) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/SelfCheckingResourceChecker.php:44
+PHP  14. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php:54
+PHP  15. ReflectionClass->__construct($objectOrClass = 'App\\DataFixtures\\CategoryFixtures') /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php:106
+PHP  16. Symfony\Component\ErrorHandler\DebugClassLoader->loadClass($class = 'App\\DataFixtures\\CategoryFixtures') /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php:106
+PHP  17. include() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/error-handler/DebugClassLoader.php:287
+
+Fatal error: Class App\DataFixtures\CategoryFixtures contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Doctrine\Common\DataFixtures\FixtureInterface::load) in /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php on line 9
+
+Call Stack:
+    0.0001     404376   1. {main}() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/bin/console:0
+    0.0003     410152   2. require_once('/home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/autoload_runtime.php') /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/bin/console:11
+    0.0271    4255864   3. Symfony\Component\Runtime\Runner\Symfony\ConsoleApplicationRunner->run() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/autoload_runtime.php:29
+    0.0271    4255864   4. Symfony\Component\Console\Application->run($input = class Symfony\Component\Console\Input\ArgvInput { protected $definition = class Symfony\Component\Console\Input\InputDefinition { private array $arguments = [...]; private int $requiredCount = 0; private $lastArrayArgument = NULL; private $lastOptionalArgument = NULL; private array $options = [...]; private array $negations = [...]; private array $shortcuts = [...] }; protected $stream = NULL; protected $options = []; protected $arguments = []; protected $interactive = TRUE; private array $tokens = [0 => 'doctrine:fixtures:load', 1 => '--append']; private array $parsed = *uninitialized* }, $output = class Symfony\Component\Console\Output\ConsoleOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { private bool $decorated = TRUE; private array $styles = [...]; private $styleStack = class Symfony\Component\Console\Formatter\OutputFormatterStyleStack { ... } }; private ${Symfony\Component\Console\Output\StreamOutput}stream = resource(2) of type (stream); private $stderr = class Symfony\Component\Console\Output\StreamOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { ... }; private $stream = resource(3) of type (stream) }; private array $consoleSectionOutputs = [] }) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php:54
+    0.0305    4265448   5. Symfony\Bundle\FrameworkBundle\Console\Application->doRun($input = class Symfony\Component\Console\Input\ArgvInput { protected $definition = class Symfony\Component\Console\Input\InputDefinition { private array $arguments = [...]; private int $requiredCount = 0; private $lastArrayArgument = NULL; private $lastOptionalArgument = NULL; private array $options = [...]; private array $negations = [...]; private array $shortcuts = [...] }; protected $stream = NULL; protected $options = []; protected $arguments = []; protected $interactive = TRUE; private array $tokens = [0 => 'doctrine:fixtures:load', 1 => '--append']; private array $parsed = *uninitialized* }, $output = class Symfony\Component\Console\Output\ConsoleOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { private bool $decorated = TRUE; private array $styles = [...]; private $styleStack = class Symfony\Component\Console\Formatter\OutputFormatterStyleStack { ... } }; private ${Symfony\Component\Console\Output\StreamOutput}stream = resource(2) of type (stream); private $stderr = class Symfony\Component\Console\Output\StreamOutput { private int ${Symfony\Component\Console\Output\Output}verbosity = 32; private ${Symfony\Component\Console\Output\Output}formatter = class Symfony\Component\Console\Formatter\OutputFormatter { ... }; private $stream = resource(3) of type (stream) }; private array $consoleSectionOutputs = [] }) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/console/Application.php:171
+    0.0305    4265448   6. Symfony\Bundle\FrameworkBundle\Console\Application->registerCommands() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/framework-bundle/Console/Application.php:72
+    0.0305    4265448   7. Symfony\Component\HttpKernel\Kernel->boot() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/framework-bundle/Console/Application.php:166
+    0.0305    4265448   8. Symfony\Component\HttpKernel\Kernel->preBoot() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php:128
+    0.0425    4998664   9. Symfony\Component\HttpKernel\Kernel->initializeContainer() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php:767
+    0.0492    6198408  10. Symfony\Component\Config\ConfigCache->isFresh() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php:446
+    0.0492    6198408  11. Symfony\Component\Config\ResourceCheckerConfigCache->isFresh() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/ConfigCache.php:58
+    0.0553    6684744  12. Symfony\Component\Config\Resource\SelfCheckingResourceChecker->isFresh($resource = class Symfony\Component\Config\Resource\ReflectionClassResource { private array $files = ['/home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php' => NULL]; private string $className = 'App\\DataFixtures\\CategoryFixtures'; private ReflectionClass $classReflector = *uninitialized*; private array $excludedVendors = []; private string $hash = '861221365cc369139e8e8870cc846be1' }, $timestamp = 1653662153) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/ResourceCheckerConfigCache.php:93
+    0.0553    6684824  13. Symfony\Component\Config\Resource\ReflectionClassResource->isFresh($timestamp = 1653662153) /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/SelfCheckingResourceChecker.php:44
+    0.0553    6684824  14. Symfony\Component\Config\Resource\ReflectionClassResource->computeHash() /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php:54
+    0.0553    6684920  15. ReflectionClass->__construct($objectOrClass = 'App\\DataFixtures\\CategoryFixtures') /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php:106
+    0.0553    6685024  16. Symfony\Component\ErrorHandler\DebugClassLoader->loadClass($class = 'App\\DataFixtures\\CategoryFixtures') /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php:106
+    0.0554    6686464  17. include('/home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php') /home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/error-handler/DebugClassLoader.php:287
+
+[0;38;5;208m[38;5;38mSymfony\Component\ErrorHandler\Error\FatalError[0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/error-handler/Error/FatalError.php#L14\^]8;;\ {[38;5;247m#154[0;38;5;208m[m
+  [0;38;5;208m#[mmessage[0;38;5;208m: "[1;38;5;113mError: Class App\DataFixtures\CategoryFixtures contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Doctrine\Common\DataFixtures\FixtureInterface::load)[0;38;5;208m"[m
+  [0;38;5;208m#[mcode[0;38;5;208m: [1;38;5;38m0[0;38;5;208m[m
+  [0;38;5;208m#[mfile[0;38;5;208m: "]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php#L9\[0;38;5;208m./[0;38;5;208m[1;38;5;113msrc/DataFixtures/CategoryFixtures.php[0;38;5;208m]8;;\"[m
+  [0;38;5;208m#[mline[0;38;5;208m: [1;38;5;38m9[0;38;5;208m[m
+  [0;38;5;208m-[merror[0;38;5;208m: [38;5;38marray:4[0;38;5;208m [[m
+    [0;38;5;208m"[38;5;113mtype[0;38;5;208m" => [1;38;5;38m1[0;38;5;208m[m
+    [0;38;5;208m"[38;5;113mmessage[0;38;5;208m" => "[1;38;5;113mClass App\DataFixtures\CategoryFixtures contains 1 abstract method and must therefore be declared abstract or implement the remaining methods (Doctrine\Common\DataFixtures\FixtureInterface::load)[0;38;5;208m"[m
+    [0;38;5;208m"[38;5;113mfile[0;38;5;208m" => "[1;38;5;113m/home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php[0;38;5;208m"[m
+    [0;38;5;208m"[38;5;113mline[0;38;5;208m" => [1;38;5;38m9[0;38;5;208m[m
+  [0;38;5;208m][m
+  [0;38;5;208m[38;5;170mtrace[0;38;5;208m: {[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php#L9\[0;38;5;208m./[0;38;5;208m[38;5;170msrc/DataFixtures/CategoryFixtures.php:9[0;38;5;208m]8;;\ {[m
+      [0;38;5;208m[38;5;170m[0;38;5;208m› [0;38;5;208m[0;38;5;208m[m
+      [0;38;5;208m[38;5;170m[0;38;5;208m› ]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/src/DataFixtures/CategoryFixtures.php#L9\[1;38;5;208mclass CategoryFixtures extends Fixture[0;38;5;208m]8;;\[m
+      [0;38;5;208m[38;5;170m[0;38;5;208m› [0;38;5;208m{[0;38;5;208m[m
+    [0;38;5;208m}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/error-handler/DebugClassLoader.php#L287\[0;38;5;208m./vendor/symfony/error-handler/[0;38;5;208m[38;5;170mDebugClassLoader.php:287[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php#L106\[0;38;5;208m./vendor/symfony/config/[0;38;5;208m[38;5;170mResource/ReflectionClassResource.php:106[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php#L106\[0;38;5;208m./vendor/symfony/config/[0;38;5;208m[38;5;170mResource/ReflectionClassResource.php:106[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/ReflectionClassResource.php#L54\[0;38;5;208m./vendor/symfony/config/[0;38;5;208m[38;5;170mResource/ReflectionClassResource.php:54[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/Resource/SelfCheckingResourceChecker.php#L44\[0;38;5;208m./vendor/symfony/config/[0;38;5;208m[38;5;170mResource/SelfCheckingResourceChecker.php:44[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/ResourceCheckerConfigCache.php#L93\[0;38;5;208m./vendor/symfony/config/[0;38;5;208m[38;5;170mResourceCheckerConfigCache.php:93[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/config/ConfigCache.php#L58\[0;38;5;208m./vendor/symfony/config/[0;38;5;208m[38;5;170mConfigCache.php:58[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php#L446\[0;38;5;208m./vendor/symfony/http-kernel/[0;38;5;208m[38;5;170mKernel.php:446[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php#L767\[0;38;5;208m./vendor/symfony/http-kernel/[0;38;5;208m[38;5;170mKernel.php:767[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/http-kernel/Kernel.php#L128\[0;38;5;208m./vendor/symfony/http-kernel/[0;38;5;208m[38;5;170mKernel.php:128[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/framework-bundle/Console/Application.php#L166\[0;38;5;208m./vendor/symfony/framework-bundle/[0;38;5;208m[38;5;170mConsole/Application.php:166[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/framework-bundle/Console/Application.php#L72\[0;38;5;208m./vendor/symfony/framework-bundle/[0;38;5;208m[38;5;170mConsole/Application.php:72[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/console/Application.php#L171\[0;38;5;208m./vendor/symfony/console/[0;38;5;208m[38;5;170mApplication.php:171[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/symfony/runtime/Runner/Symfony/ConsoleApplicationRunner.php#L54\[0;38;5;208m./vendor/symfony/runtime/[0;38;5;208m[38;5;170mRunner/Symfony/ConsoleApplicationRunner.php:54[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/vendor/autoload_runtime.php#L29\[0;38;5;208m./vendor/autoload_runtime.php:2[0;38;5;208m[38;5;170m9[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/bin/console#L11\[0;38;5;208m./[0;38;5;208m[38;5;170mbin/console:11[0;38;5;208m]8;;\ { …}[m
+    [0;38;5;208m]8;;file:///home/wilder/Documents/Cours_et_quetes/Symfony/Quetes/wild-series/bin/console#L0\[0;38;5;208m./[0;38;5;208m[38;5;170mbin/console:0[0;38;5;208m]8;;\ { …}[m
+  [0;38;5;208m}[m
+[0;38;5;208m}[m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7m    public function load(ObjectManager $manager)[27m
+[7m    {[27m[K
+[7m        foreach (self::CATEGORIES as $key => $categoryName) {[27m[K
+[7m            $category = new Category();[27m[K
+[7m            $category->setName($categoryName);[27m[K
+[7m            $manager->persist($category);[27m[K
+[7m            $this->addReference('category_' . $categoryName, $category);[27m[K
+[7m        }[27m[K
+[K
+[7m        $manager->flush();[27m[K
+[7m    }[27m[K[10A[23C[27m [27m [27m [27m [27mp[27mu[27mb[27ml[27mi[27mc[27m [27mf[27mu[27mn[27mc[27mt[27mi[27mo[27mn[27m [27ml[27mo[27ma[27md[27m([27mO[27mb[27mj[27me[27mc[27mt[27mM[27ma[27mn[27ma[27mg[27me[27mr[27m [27m$[27mm[27ma[27mn[27ma[27mg[27me[27mr[27m)[1B[27m [27m [27m [27m [27m{[1B[27m [27m [27m [27m [27m [27m [27m [27m [27mf[27mo[27mr[27me[27ma[27mc[27mh[27m [27m([27ms[27me[27ml[27mf[27m:[27m:[27mC[27mA[27mT[27mE[27mG[27mO[27mR[27mI[27mE[27mS[27m [27ma[27ms[27m [27m$[27mk[27me[27my[27m [27m=[27m>[27m [27m$[27mc[27ma[27mt[27me[27mg[27mo[27mr[27my[27mN[27ma[27mm[27me[27m)[27m [27m{[1B[39P[12C$category = new Category();[100C[K[1B[46P[12C$category->setName($categoryName);[86C[K[1B[41P[12C$manager->persist($category);[96C[K[1B[72P[12C$this->addReference('category_' . $categoryName, $category);[34C[K[1B[27m [27m [27m [27m [27m [27m [27m [27m [27m}[2B[27m [27m [27m [27m [27m [27m [27m [27m [27m$[27mm[27ma[27mn[27ma[27mg[27me[27mr[27m-[27m>[27mf[27ml[27mu[27ms[27mh[27m([27m)[27m;[1B[27m [27m [27m [27m [27m}[?1l>[?2004l
+zsh: parse error near `(self::CATEGORIES as...'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h    public function load(ObjectManager $manager)
+    {[K
+        foreach (self::CATEGORIES as $key => $categoryName) {[K
+            $category = new Category();[K
+            $category->setName($categoryName);[K
+            $manager->persist($category);[K
+            $this->addReference('category_' . $categoryName, $category);[K
+        }[K
+[K
+        $manager->flush();[K
+    }[K[10A[71C[?1l>[?2004l[10B
+zsh: parse error near `(self::CATEGORIES as...'
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h    public function load(ObjectManager $manager)
+    {[K
+        foreach (self::CATEGORIES as $key => $categoryName) {[K
+            $category = new Category();[K
+            $category->setName($categoryName);[K
+            $manager->persist($category);[K
+            $this->addReference('category_' . $categoryName, $category);[K
+        }[K
+[K
+        $manager->flush();[K
+    }[K[10A[71C[48Dphp bin/console doctrine:fixtures:load --append [1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[1B[K[10A[75C[?1l>[?2004l[1B]2;php bin/console doctrine:fixtures:load --append]1;php
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+
+[33mIn CategoryFixtures.php line 34:[39m
+[37;41m                                                                    [39;49m
+[37;41m  Undefined constant App\DataFixtures\CategoryFixtures::CATEGORIES  [39;49m
+[37;41m                                                                    [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;php
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+
+[33mIn ReferenceRepository.php line 158:[39m
+[37;41m                                                  [39;49m
+[37;41m  Reference to "category_Comédie" does not exist  [39;49m
+[37;41m                                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append[1C[1C[1C[1C[2C-append[8D[2C-append[8Dg--append[8Dr--append[8Do--append[8Du--append[8Dp--append[8D=--append[8DP--append[8Dr--append[8Do--append[8Df--append[8Dr--append[8Da--append[8Dm--append[8D--append [9D--append [9D--append [9D--append [9Dg--append[8Dr--append[8Da--append[8Dm--append[8DF--append[8Di--append[8Dx--append[8Dt--append[8Du--append[8Dr--append[8De--append[8Ds--append[8D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --group=ProgramFixtures--append]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > no
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures--append --append[8D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --group=ProgramFixtures --append]1;php
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+
+[33mIn ReferenceRepository.php line 158:[39m
+[37;41m                                                  [39;49m
+[37;41m  Reference to "category_Comédie" does not exist  [39;49m
+[37;41m                                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures --append         s[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --group=ProgramFixtures]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > no
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures --appendD          s[2C-group=ProgramFixtures[23D[2C-group=ProgramFixtures[23Da--group=ProgramFixtures[23Dp--group=ProgramFixtures[23Dp--group=ProgramFixtures[23De--group=ProgramFixtures[23Dn--group=ProgramFixtures[23Dd--group=ProgramFixtures[23D --group=ProgramFixtures[23D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append --group=ProgramFixtures]1;php
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+
+[33mIn ReferenceRepository.php line 158:[39m
+[37;41m                                                  [39;49m
+[37;41m  Reference to "category_Comédie" does not exist  [39;49m
+[37;41m                                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append --group=ProgramFixtures                           pend                                          p  php bin/console doctrine:fixtures:load --purge-with-truncate[1C                                                       p  [?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append --group=ProgramFixtures-[P[22C [24D-[P[22C [24D-[P[22C [24D-[P[22C [24D-[P[22C [24D-[P[22C [24D-[P[22C [24D[1C[P[21C [24D[1C[P[21C [24D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --group=ProgramFixtures]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+
+[33mIn ReferenceRepository.php line 158:[39m
+[37;41m                                                  [39;49m
+[37;41m  Reference to "category_Comédie" does not exist  [39;49m
+[37;41m                                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --group=ProgramFixtures]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+
+[33mIn ReferenceRepository.php line 158:[39m
+[37;41m                                                 [39;49m
+[37;41m  Reference to "category_Action" does not exist  [39;49m
+[37;41m                                                 [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures[21Dappend --[2Coup=ProgramFixtures                       [?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;php
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --appendgroup=ProgramFixtures[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --group=ProgramFixtures]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+
+[33mIn SymfonyFixturesLoader.php line 148:[39m
+[37;41m                                                                                                                                                                                 [39;49m
+[37;41m  Fixture "App\DataFixtures\CategoryFixtures" was declared as a dependency for fixture "App\DataFixtures\ProgramFixtures", but it was not included in any of the loaded fixture  [39;49m
+[37;41m   groups.                                                                                                                                                                       [39;49m
+[37;41m                                                                                                                                                                                 [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --group=ProgramFixtures[21Dappend               [15D         d[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful,
