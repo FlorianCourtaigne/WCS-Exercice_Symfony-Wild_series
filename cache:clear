@@ -1,0 +1,302 @@
+Script started on 2022-05-27 10:14:42+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="178" LINES="29"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hscript cache:clear[18Dphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > n
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[38Dscript cache:clear                    [20D[18Dphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[7m➜  wild-series git:(main) ✗ [27m[K[27m➜[27m [27m [27mw[27mi[27ml[27md[27m-[27ms[27me[27mr[27mi[27me[27ms[27m [27mg[27mi[27mt[27m:[27m([27mm[27ma[27mi[27mn[27m)[27m [27m✗[K                      [K[K[A[28C[?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h
+[7m➜  wild-series git:(main) ✗ [27m[K[27m➜[27m [27m [27mw[27mi[27ml[27md[27m-[27ms[27me[27mr[27mi[27me[27ms[27m [27mg[27mi[27mt[27m:[27m([27mm[27ma[27mi[27mn[27m)[27m [27m✗[K                      [K[K[A[28C[?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mphp bin/console doctrine:fixtures:load --append[27m[47D[27mp[27mh[27mp[27m [27mb[27mi[27mn[27m/[27mc[27mo[27mn[27ms[27mo[27ml[27me[27m [27md[27mo[27mc[27mt[27mr[27mi[27mn[27me[27m:[27mf[27mi[27mx[27mt[27mu[27mr[27me[27ms[27m:[27ml[27mo[27ma[27md[27m [27m-[27m-[27ma[27mp[27mp[27me[27mn[27md[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;php
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append]1;php
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mphp bin/console doctrine:fixtures:load --fixtures=src/DataFixtures/[27m[67D[27mp[27mh[27mp[27m [27mb[27mi[27mn[27m/[27mc[27mo[27mn[27ms[27mo[27ml[27me[27m [27md[27mo[27mc[27mt[27mr[27mi[27mn[27me[27m:[27mf[27mi[27mx[27mt[27mu[27mr[27me[27ms[27m:[27ml[27mo[27ma[27md[27m [27m-[27m-[27mf[27mi[27mx[27mt[27mu[27mr[27me[27ms[27m=[27ms[27mr[27mc[27m/[27mD[27ma[27mt[27ma[27mF[27mi[27mx[27mt[27mu[27mr[27me[27ms[27m/[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --fixtures=src/DataFixtures/]1;php
+[37;41m                                           [39;49m
+[37;41m  The "--fixtures" option does not exist.  [39;49m
+[37;41m                                           [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --fixtures=src/DataFixtures/[1C[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19D[P[18C [19Da=src/DataFixtures/[18Dp=src/DataFixtures/[18Dp=src/DataFixtures/[18De=src/DataFixtures/[18Dn=src/DataFixtures/[18Dd=src/DataFixtures/[18D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load --append=src/DataFixtures/]1;php
+[37;41m                                                  [39;49m
+[37;41m  The "--append" option does not accept a value.  [39;49m
+[37;41m                                                  [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load --append=src/DataFixtures/[1C[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[P[17C [18D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load src/DataFixtures/]1;php
+[37;41m                                                                                        [39;49m
+[37;41m  No arguments expected for "doctrine:fixtures:load" command, got "src/DataFixtures/".  [39;49m
+[37;41m                                                                                        [39;49m
+
+[32mdoctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--purger PURGER] [--purge-exclusions PURGE-EXCLUSIONS] [--shard SHARD] [--purge-with-truncate][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mdoctrine/doctrine-fixtures-bundle[27m[33D[27md[27mo[27mc[27mt[27mr[27mi[27mn[27me[27m/[27md[27mo[27mc[27mt[27mr[27mi[27mn[27me[27m-[27mf[27mi[27mx[27mt[27mu[27mr[27me[27ms[27m-[27mb[27mu[27mn[27md[27ml[27me*[?1l>[?2004l
+]2;doctrine/doctrine-fixtures-bundle*]1;doctrine/doctrine-fixtures-bundle*zsh: no matches found: doctrine/doctrine-fixtures-bundle*
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[?1l>[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hdoctrine/doctrine-fixtures-bundle* [?1l>[?2004l
+]2;doctrine/doctrine-fixtures-bundle]1;doctrine/doctrine-fixtures-bundlezsh: aucun fichier ou dossier de ce type: doctrine/doctrine-fixtures-bundle
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004h[7mcomposer require --dev orm-fixtures[27m[35D[27mc[27mo[27mm[27mp[27mo[27ms[27me[27mr[27m [27mr[27me[27mq[27mu[27mi[27mr[27me[27m [27m-[27m-[27md[27me[27mv[27m [27mo[27mr[27mm[27m-[27mf[27mi[27mx[27mt[27mu[27mr[27me[27ms[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 242:                                                                                              [39;49m
+[37;41m  ...tes/framework.yaml",use App\Entity\Categ                                                                           [39;49m
+[37;41m  ----------------------^                                                                                               [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 242:                                                                                              [39;49m
+[37;41m  ...tes/framework.yaml",use App\Entity\Categ                                                                           [39;49m
+[37;41m  ----------------------^                                                                                               [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 242:                                                                                              [39;49m
+[37;41m  ...tes/framework.yaml",use App\Entity\Categ                                                                           [39;49m
+[37;41m  ----------------------^                                                                                               [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON  [39;49m
+[37;41m  Parse error on line 242:                      [39;49m
+[37;41m  ...tes/framework.yaml" use App\Entity\Categ   [39;49m
+[37;41m  ----------------------^                       [39;49m
+[37;41m  Expected one of: 'EOF', '}', ':', ',', ']'    [39;49m
+[37;41m                                                [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                      [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                        [39;49m
+[37;41m  Parse error on line 242:                                                                                            [39;49m
+[37;41m  ...es/framework.yaml", "use App\Entity\Cate                                                                         [39;49m
+[37;41m  ----------------------^                                                                                             [39;49m
+[37;41m  Invalid string, it appears you have an unescaped backslash at: \Enti - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                      [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 242:                                                                                              [39;49m
+[37;41m  ...work.yaml",        }    },    "symfon                                                                              [39;49m
+[37;41m  ---------------------^                                                                                                [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 242:                                                                                              [39;49m
+[37;41m  ...tes/framework.yaml",]        }    },                                                                               [39;49m
+[37;41m  ----------------------^                                                                                               [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON  [39;49m
+[37;41m  Parse error on line 244:                      [39;49m
+[37;41m  ...ml"]        }    },    "symfony/messe      [39;49m
+[37;41m  --------------------^                         [39;49m
+[37;41m  Expected: 'EOF'                               [39;49m
+[37;41m                                                [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                          [39;49m
+[37;41m  Parse error on line 344:                                              [39;49m
+[37;41m  ...            "ref": "8a5b112826f7d3d5b07                            [39;49m
+[37;41m  ---------------------^                                                [39;49m
+[37;41m  Invalid string, it appears you have an unescaped backslash at: \Enti  [39;49m
+[37;41m                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 241:                                                                                              [39;49m
+[37;41m  ...g/preload.php",    },    "symfony/mess                                                                             [39;49m
+[37;41m  ---------------------^                                                                                                [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON  [39;49m
+[37;41m  Parse error on line 241:                      [39;49m
+[37;41m  ...ig/preload.php"    },    "symfony/mess     [39;49m
+[37;41m  ---------------------^                        [39;49m
+[37;41m  Expected one of: ',', ']'                     [39;49m
+[37;41m                                                [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer
+[33mIn JsonFile.php line 345:[39m
+[37;41m                                                                                                                        [39;49m
+[37;41m  "./symfony.lock" does not contain valid JSON                                                                          [39;49m
+[37;41m  Parse error on line 241:                                                                                              [39;49m
+[37;41m  ...g/preload.php",    },    "symfony/mess                                                                             [39;49m
+[37;41m  ---------------------^                                                                                                [39;49m
+[37;41m  Expected one of: 'STRING', 'NUMBER', 'NULL', 'TRUE', 'FALSE', '{', '[' - It appears you have an extra trailing comma  [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[32mrequire [--dev] [--dry-run] [--prefer-source] [--prefer-dist] [--prefer-install PREFER-INSTALL] [--fixed] [--no-suggest] [--no-progress] [--no-update] [--no-install] [--update-no-dev] [-w|--update-with-dependencies] [-W|--update-with-all-dependencies] [--with-dependencies] [--with-all-dependencies] [--ignore-platform-req IGNORE-PLATFORM-REQ] [--ignore-platform-reqs] [--prefer-stable] [--prefer-lowest] [--sort-packages] [-o|--optimize-autoloader] [-a|--classmap-authoritative] [--apcu-autoloader] [--apcu-autoloader-prefix APCU-AUTOLOADER-PREFIX] [--] [<packages>...][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[?1l>[?2004l
+]2;composer require --dev orm-fixtures]1;composer[32mInfo from https://repo.packagist.org: [37;44m#StandWith[30;43mUkraine[0m[39m
+Using version [32m^3.4[39m for [32mdoctrine/doctrine-fixtures-bundle[39m
+[32m./composer.json has been updated[39m
+[32mRunning composer update doctrine/doctrine-fixtures-bundle[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies[39m
+Nothing to modify in lock file
+[32mInstalling dependencies from lock file (including require-dev)[39m
+Nothing to install, update or remove
+[32mGenerating optimized autoload files[39m
+[30;43mClass App\DataFixtures\CategoryFixtures located in ./src/DataFixtures/AppFixtures.php does not comply with psr-4 autoloading standard. Skipping.[39;49m
+[32m85 packages you are using are looking for funding.[39m
+[32mUse the `composer fund` command to find out more![39m
+
+Run [33mcomposer recipes[39m at any time to see the status of your Symfony recipes.
+
+Executing script cache:clear [32m[OK][39m
+Executing script assets:install public [32m[OK][39m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hcomposer require --dev orm-fixtures[35Ddoctrine/doctrine[9P[9C-bundle  *[34Dphp b[2C/console doctrine:fixtures:load src/DataFixtures/[17D--append=src/DataFixtures/[24Dfixtures=src/DataFixtures/[26Dappend                    [20D[8D        [9D[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y$
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > n
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+[37;41m                                                                                                                        [39;49m
+[37;41m [ERROR] Could not find any fixture services to load.                                                                   [39;49m
+[37;41m                                                                                                                        [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load                                  p  ggit status[?1l>[?2004l
+]2;git status]1;gitSur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	[31mmodifié :         composer.json[m
+	[31mmodifié :         compo
