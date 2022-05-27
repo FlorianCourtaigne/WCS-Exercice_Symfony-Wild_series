@@ -526,4 +526,124 @@ Fichiers non suivis:
   (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
 	[31msrc/DataFixtures/CategoryFixtures.php[m
 
-aucune modification n'
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hgit status[10Dsymfony console make:fixture[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[60Dsymfony [8Cmak[4P[9C                                [32D[28Dphp bin/[8Cdoctrine:fixtures:load --purge-with-truncate[60Dsymfony [8Cmak[4P[9C                                [32D[28Dgit status                  [18D[10D          [10Dgit status      add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitSur la branche main
+Votre branche est à jour avec 'origin/main'.
+
+Modifications qui seront validées :
+  (utilisez "git restore --staged <fichier>..." pour désindexer)
+	[32mmodifié :         cache:clear[m
+	[32mmodifié :         src/DataFixtures/AppFixtures.php[m
+	[32mnouveau fichier : src/DataFixtures/CategoryFixtures.php[m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggot  g git cmm  ommit-  -m"fixing and renaming fixtures with ne  the name of the entity"[?1l>[?2004l
+]2;git commit -m"fixing and renaming fixtures with the name of the entity"]1;git[main 03d1840] fixing and renaming fixtures with the name of the entity
+ 3 files changed, 287 insertions(+), 43 deletions(-)
+ rewrite src/DataFixtures/AppFixtures.php (81%)
+ create mode 100644 src/DataFixtures/CategoryFixtures.php
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitÉnumération des objets: 12, fait.
+Décompte des objets:   8% (1/12)Décompte des objets:  16% (2/12)Décompte des objets:  25% (3/12)Décompte des objets:  33% (4/12)Décompte des objets:  41% (5/12)Décompte des objets:  50% (6/12)Décompte des objets:  58% (7/12)Décompte des objets:  66% (8/12)Décompte des objets:  75% (9/12)Décompte des objets:  83% (10/12)Décompte des objets:  91% (11/12)Décompte des objets: 100% (12/12)Décompte des objets: 100% (12/12), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:  14% (1/7)Compression des objets:  28% (2/7)Compression des objets:  42% (3/7)Compression des objets:  57% (4/7)Compression des objets:  71% (5/7)Compression des objets:  85% (6/7)Compression des objets: 100% (7/7)Compression des objets: 100% (7/7), fait.
+Écriture des objets:  14% (1/7)Écriture des objets:  28% (2/7)Écriture des objets:  42% (3/7)Écriture des objets:  57% (4/7)Écriture des objets:  71% (5/7)Écriture des objets:  85% (6/7)Écriture des objets: 100% (7/7)Écriture des objets: 100% (7/7), 3.02 Kio | 1.01 Mio/s, fait.
+Total 7 (delta 4), réutilisés 0 (delta 0)
+remote: Resolving deltas:   0% (0/4)[Kremote: Resolving deltas:  25% (1/4)[Kremote: Resolving deltas:  50% (2/4)[Kremote: Resolving deltas:  75% (3/4)[Kremote: Resolving deltas: 100% (4/4)[Kremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[K
+To github.com:FlorianCourtaigne/Wild_series.git
+   5f4fd0c..03d1840  main -> main
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hssymfonyn  cn onsole make:entity[?1l>[?2004l
+]2;symfony console make:entity]1;symfony
+ [32mClass name of the entity to create or update (e.g. [39m[33mAgreeableChef[39m[32m)[39m:
+ > P[K7[30;47mrogram[39;49m8r[K7[30;47mogram[39;49m8o[K7[30;47mgram[39;49m8g[K7[30;47mram[39;49m8r[K7[30;47mam[39;49m8a[K7[30;47mm[39;49m8m[K78
+
+ Your entity already exists! So let's add some new fields!
+
+ [32mNew property name (press [39m[32m<return>[39m[32m to stop adding fields)[39m:
+ > category
+
+ [32mField type (enter [39m[33m?[39m[32m to see all types)[39m [[33mstring[39m]:
+ > M[K7[30;47manyToOne[39;49m8a[K7[30;47mnyToOne[39;49m8n[K7[30;47myToOne[39;49m8yToOne
+
+ [32mWhat class should this entity be related to?[39m:
+ > C[K7[30;47mategory[39;49m8a[K7[30;47mtegory[39;49m8t[K7[30;47megory[39;49m8e[K7[30;47mgory[39;49m8g[K7[30;47mory[39;49m8o[K7[30;47mry[39;49m8r[K7[30;47my[39;49m8y[K78
+
+ [32mIs the [39m[33mProgram[39m[32m.[39m[33mcategory[39m[32m property allowed to be null (nullable)? (yes/no)[39m [[33myes[39m]:
+ > no
+
+ [32mDo you want to add a new property to [39m[33mCategory[39m[32m so that you can access/update [39m[33mProgram[39m[32m objects from it - e.g. [39m[33m$category->getPrograms()[39m[32m? (yes/no)[39m [[33myes[39m]:
+ > no
+
+ [33mupdated[39m: src/Entity/Program.php
+
+ [32mAdd another property? Enter the property name (or press [39m[32m<return>[39m[32m to stop adding fields)[39m:
+ > 
+
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: When you're ready, create a migration with [32mphp bin/console make:migration[39m
+ 
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:entity      migation[?1l>[?2004l
+]2;symfony console make:migation]1;symfony
+[37;41m                                                 [39;49m
+[37;41m  Command "make:migation" is not defined.        [39;49m
+[37;41m                                                 [39;49m
+[37;41m  Did you mean one of these?                     [39;49m
+[37;41m      doctrine:migrations:current                [39;49m
+[37;41m      doctrine:migrations:diff                   [39;49m
+[37;41m      doctrine:migrations:dump-schema            [39;49m
+[37;41m      doctrine:migrations:execute                [39;49m
+[37;41m      doctrine:migrations:generate               [39;49m
+[37;41m      doctrine:migrations:latest                 [39;49m
+[37;41m      doctrine:migrations:list                   [39;49m
+[37;41m      doctrine:migrations:migrate                [39;49m
+[37;41m      doctrine:migrations:rollup                 [39;49m
+[37;41m      doctrine:migrations:status                 [39;49m
+[37;41m      doctrine:migrations:sync-metadata-storage  [39;49m
+[37;41m      doctrine:migrations:up-to-date             [39;49m
+[37;41m      doctrine:migrations:version                [39;49m
+[37;41m      make:auth                                  [39;49m
+[37;41m      make:command                               [39;49m
+[37;41m      make:controller                            [39;49m
+[37;41m      make:crud                                  [39;49m
+[37;41m      make:docker:database                       [39;49m
+[37;41m      make:entity                                [39;49m
+[37;41m      make:fixtures                              [39;49m
+[37;41m      make:form                                  [39;49m
+[37;41m      make:functional-test                       [39;49m
+[37;41m      make:message                               [39;49m
+[37;41m      make:messenger-middleware                  [39;49m
+[37;41m      make:migration                             [39;49m
+[37;41m      make:registration-form                     [39;49m
+[37;41m      make:reset-password                        [39;49m
+[37;41m      make:serializer:encoder                    [39;49m
+[37;41m      make:serializer:normalizer                 [39;49m
+[37;41m      make:stimulus-controller                   [39;49m
+[37;41m      make:subscriber                            [39;49m
+[37;41m      make:test                                  [39;49m
+[37;41m      make:twig-extension                        [39;49m
+[37;41m      make:unit-test                             [39;49m
+[37;41m      make:user                                  [39;49m
+[37;41m      make:validator                             [39;49m
+[37;41m      make:voter                                 [39;49m
+[37;41m                                                 [39;49m
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:migationration[?1l>[?2004l
+]2;symfony console make:migration]1;symfony
+
+ [37;42m          [39;49m
+ [37;42m Success! [39;49m
+ [37;42m          [39;49m
+
+ Next: Review the new migration [32m"[39m[32mmigrations/Version20220527133833.php[39m[32m"[39m
+ Then: Run the migration with [32mphp bin/console doctrine:migrations:migrate[39m
+ See [33mhttps://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hsymfony console make:migration                     doctrine:migrations:migrate[?1l>[?2004l
+]2;symfony doctrine:migrations:migrate]1;symfony[37;41m                                                         [39;49m
+[37;41m  Command "doctrine:migrations:migrate" does not exist.  [39;49m
+[37;41m                                                         [39;49m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34
