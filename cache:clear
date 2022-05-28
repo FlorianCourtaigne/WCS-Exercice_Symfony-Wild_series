@@ -1157,4 +1157,23 @@ To github.com:FlorianCourtaigne/Wild_series.git
    [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
    [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
    [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
-[1m[7m%[27m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hphp bin/console doctrine:fixtures:load[?1l>[?2004l
+]2;php bin/console doctrine:fixtures:load]1;php
+ [32mCareful, database "wild_series" will be purged. Do you want to continue? (yes/no)[39m [[33mno[39m]:
+ > y
+
+   [33m>[39m [32mpurging database[39m
+   [33m>[39m [32mloading App\DataFixtures\AppFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\CategoryFixtures[39m
+   [33m>[39m [32mloading App\DataFixtures\ProgramFixtures[39m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hggit commit "new fixtures for programs and caté egories"[?1l>[?2004l
+]2;git commit "new fixtures for programs and categories"]1;giterror: le spécificateur de chemin 'new fixtures for programs and categories' ne correspond à aucun fichier connu de git
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;31m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m) [33m✗[00m [K[?1h=[?2004hgit commit "new fixtures for programs and categories"-"new fixtures for programs and categories"[42Dm"new fixtures for programs and categories"[42D[?1l>[?2004l
+]2;git commit -m"new fixtures for programs and categories"]1;git[main 1206f8c] new fixtures for programs and categories
+ 2 files changed, 88 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                                                                                                                  ]2;wilder@wilder-ThinkPad-T440p:~/Documents/Cours_et_quetes/Symfony/Quetes/wild-series]1;..s/wild-series[0m[27m[24m[J[01;32m➜  [36mwild-series[00m [01;34mgit:([31mmain[34m)[00m [K[?1h=[?2004hgit commit -m"new fixtures for programs and categories"                                             push[?1l>[?2004l
+]2;git push]1;gitÉnumération des objets: 11, fait.
+Décompte des objets:   9% (1/11)Décompte des objets:  18% (2/11)Décompte des objets:  27% (3/11)Décompte des objets:  36% (4/11)Décompte des objets:  45% (5/11)Décompte des objets:  54% (6/11)Décompte des objets:  63% (7/11)Décompte des objets:  72% (8/11)Décompte des objets:  81% (9/11)Décompte des objets:  90% (10/11)Décompte des objets: 100% (11/11)Décompte des objets: 100% (11/11), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:  16% (1/6)Compression des objets:  33% (2/6)

@@ -4,6 +4,10 @@
 
 {% block body %}
 <main class="vh-100">
-    <h1 class="text-dark text-center pt-5">Program {{ id }}</h1>
+        <h2>{{ program.title }} - Catégorie : {{ program.category.name }}</h2>
+        <p>{{ program.synopsis }}</p>
+<a href="{{ path('app_index') }}">
+    Retour à l'accueil
+</a>
 </main>
 {% endblock %}

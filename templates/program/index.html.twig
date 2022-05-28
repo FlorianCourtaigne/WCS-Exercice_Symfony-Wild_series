@@ -3,5 +3,16 @@
 {% block title %}Wild Series{% endblock %}
 
 {% block body %}
-<h1>{{ website }} index</h1>
+<main class="vh-100">
+    <h1>{{ website }} index</h1>
+    {% for program in programs %}
+        <h2>{{loop.index}} / <a href="/program/{{program.id}}">{{ program.title }}</a> - Catégorie : {{ program.category.name }}</h2>
+        <p>{{ program.synopsis }}</p>
+    {% else %}
+        Aucune série trouvée.
+    {% endfor %}
+<a href="{{ path('app_index') }}">
+    Retour à l'accueil
+</a>
+</main>
 {% endblock %}
