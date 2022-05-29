@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Wild Series{% endblock %}
+
+{% block body %}
+<main class="vh-100">
+        <h2>{{ category.name }}</h2>
+<a href="{{ path('app_index') }}">
+    Retour à l'accueil
+</a>
+</main>
+{% endblock %}
