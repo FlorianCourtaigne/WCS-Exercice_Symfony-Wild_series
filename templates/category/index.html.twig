@@ -6,7 +6,7 @@
 <main class="vh-100">
     <h1>{{ website }} index</h1>
     {% for category in categories %}
-        <h2>{{loop.index}} / <a href="{{ path("category_show", { id: category.id }) }}">{{ category.name }}</a></h2>
+        <h2>{{loop.index}} / <a href="{{ path("category_show", {categoryName: category.name}) }}"> {{ category.name }}</a></h2> 
     {% else %}
         Aucune série trouvée.
     {% endfor %}

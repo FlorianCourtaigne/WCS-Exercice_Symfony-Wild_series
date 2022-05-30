@@ -4,7 +4,11 @@
 
 {% block body %}
 <main class="vh-100">
-        <h2>{{ category.name }}</h2>
+    {% for program in programs %}
+        <h2>{{ program.title }}</h2>
+    {% else %}
+    Aucune série trouvée.
+    {% endfor %}
 <a href="{{ path('app_index') }}">
     Retour à l'accueil
 </a>
