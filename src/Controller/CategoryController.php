@@ -27,12 +27,13 @@ class CategoryController extends AbstractController
     #[Route('/{categoryName}', name: 'show')]
     public function findProgramByCategory(string $categoryName, CategoryRepository $categoryRepository, ProgramRepository $programRepository): Response
     {
+        
             $category = $categoryRepository->findOneByName($categoryName);
             $programs = $programRepository->findByCategory($category);
             
             if (!$category) {
                 throw $this->createNotFoundException(
-                    'No category with name : '.$categoryName .' found in category\'s table.'
+                    'Aucune catégorie nommée '.$categoryName .''
                 );
             } else {
             return $this->render('category/show.html.twig', [

@@ -5,7 +5,7 @@
 {% block body %}
 <main class="vh-100">
     {% for program in programs %}
-        <h2>{{ program.title }}</h2>
+        <h2>{{loop.index}} / <a href="{{ path("program_show", { id: program.id }) }}">{{ program.title }}</a></h2>
     {% else %}
     Aucune série trouvée.
     {% endfor %}

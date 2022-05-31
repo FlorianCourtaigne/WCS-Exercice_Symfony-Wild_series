@@ -5,6 +5,7 @@
 {% block body %}
 <main class="vh-100">
         <h2>{{ program.title }} - Catégorie : {{ program.category.name }}</h2>
+        <p> {{program.country}} / {{program.year}} </p>
         <p>{{ program.synopsis }}</p>
 <a href="{{ path('app_index') }}">
     Retour à l'accueil
