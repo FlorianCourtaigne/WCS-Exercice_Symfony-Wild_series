@@ -22,6 +22,10 @@ class Episode
     #[ORM\Column(type: 'string', length: 255, nullable: true)]
     private $synopsys;
 
+    #[ORM\ManyToOne(targetEntity: Season::class, inversedBy: 'episodes')]
+    #[ORM\JoinColumn(nullable: false)]
+    private $season;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -59,6 +63,18 @@ class Episode
     public function setSynopsys(?string $synopsys): self
     {
         $this->synopsys = $synopsys;
+
+        return $this;
+    }
+
+    public function getSeason(): ?Season
+    {
+        return $this->season;
+    }
+
+    public function setSeason(?Season $season): self
+    {
+        $this->season = $season;
 
         return $this;
     }

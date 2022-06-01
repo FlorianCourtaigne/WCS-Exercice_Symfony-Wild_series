@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use App\Repository\SeasonRepository;
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: SeasonRepository::class)]
@@ -21,6 +23,18 @@ class Season
 
     #[ORM\Column(type: 'string', length: 255)]
     private $description;
+
+    #[ORM\ManyToOne(targetEntity: Program::class, inversedBy: 'seasons')]
+    #[ORM\JoinColumn(nullable: false)]
+    private $program;
+
+    #[ORM\OneToMany(mappedBy: 'season', targetEntity: Episode::class)]
+    private $episodes;
+
+    public function __construct()
+    {
+        $this->episodes = new ArrayCollection();
+    }
 
     public function getId(): ?int
     {
@@ -59,6 +73,48 @@ class Season
     public function setDescription(string $description): self
     {
         $this->description = $description;
+
+        return $this;
+    }
+
+    public function getProgram(): ?Program
+    {
+        return $this->program;
+    }
+
+    public function setProgram(?Program $program): self
+    {
+        $this->program = $program;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Episode>
+     */
+    public function getEpisodes(): Collection
+    {
+        return $this->episodes;
+    }
+
+    public function addEpisode(Episode $episode): self
+    {
+        if (!$this->episodes->contains($episode)) {
+            $this->episodes[] = $episode;
+            $episode->setSeason($this);
+        }
+
+        return $this;
+    }
+
+    public function removeEpisode(Episode $episode): self
+    {
+        if ($this->episodes->removeElement($episode)) {
+            // set the owning side to null (unless already changed)
+            if ($episode->getSeason() === $this) {
+                $episode->setSeason(null);
+            }
+        }
 
         return $this;
     }
