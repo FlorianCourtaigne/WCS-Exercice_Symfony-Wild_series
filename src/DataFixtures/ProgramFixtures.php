@@ -9,6 +9,8 @@ use Doctrine\Persistence\ObjectManager;
 
 class ProgramFixtures extends Fixture implements DependentFixtureInterface
 {
+    public const PROGRAM_ID = 136;
+    
     public function load(ObjectManager $manager): void
     {
         $program1 = new Program();
@@ -18,6 +20,7 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
         $program1->setCountry('USA');
         $program1->setYear('1994');
         $manager->persist($program1);
+        $this->addReference(self::PROGRAM_ID, $program1);
         $program2 = new Program();
         $program2->setTitle('Spartacus');
         $program2->setSynopsis('Des romains qui se battent');
