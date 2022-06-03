@@ -27,6 +27,7 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
         $program2->setCategory($this->getReference('category_Action'));
         $program2->setCountry('USA');
         $program2->setYear('2010');
+        $this->addReference('program_Spartacus', $program2);
         $manager->persist($program2);
         $program3 = new Program();
         $program3->setTitle('Fargo');
