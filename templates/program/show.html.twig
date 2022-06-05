@@ -4,11 +4,16 @@
 
 {% block body %}
 <main class="vh-100">
-        <h2>{{ program.title }} - Catégorie : {{ program.category.name }}</h2>
-        <p> {{program.country}} / {{program.year}} </p>
-        <p>{{ program.synopsis }}</p>
-<a href="{{ path('app_index') }}">
-    Retour à l'accueil
-</a>
+    <h2>{{ program.title }} - Catégorie : {{ program.category.name }}</h2>
+    <p> {{program.country}} / {{program.year}} </p>
+    <p>{{ program.synopsis }}</p>
+    {% for season in seasons %}
+        {% if program.id == season.program.id %}
+            <p><a href="{{ path("program_season_show", { programId: program.id, seasonId: season.id }) }}">Saison {{ season.number }}</a></p>
+        {% endif %}
+    {% endfor %}
+    <a href="{{ path('app_index') }}">
+        Retour à l'accueil
+    </a>
 </main>
 {% endblock %}
