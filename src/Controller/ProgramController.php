@@ -3,6 +3,8 @@
 namespace App\Controller;
 
 use App\Entity\Program;
+use App\Entity\Season;
+use App\Entity\Episode;
 use App\Repository\SeasonRepository;
 use App\Repository\ProgramRepository;
 use App\Repository\EpisodeRepository;
@@ -10,6 +12,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Doctrine\Persistence\ManagerRegistry;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Entity;
 
 #[Route('/program', name: 'program_')]
 class ProgramController extends AbstractController
@@ -24,10 +27,9 @@ class ProgramController extends AbstractController
         ]);
     }
 
-    #[Route('/show{id<^[0-9]+$>}', name: 'show')]
-    public function show(int $id, ProgramRepository $programRepository, SeasonRepository $seasonRepository) : Response
+    #[Route('/show{id}', name: 'show')]
+    public function show(Program $program, SeasonRepository $seasonRepository) : Response
     {
-        $program = $programRepository->findOneBy(['id' => $id]);
         
         if (!$program) {
             throw $this->createNotFoundException(
@@ -43,20 +45,32 @@ class ProgramController extends AbstractController
     ]);
     }
 
-    #[Route('/program/{programId}/seasons/{seasonId}', name: 'season_show')]
-    public function showSeason(int $programId, int $seasonId, 
-    ProgramRepository $programRepository, 
-    SeasonRepository $seasonRepository,
-    EpisodeRepository $episodeRepository) : Response
+    #[Route('/{programId}/season/{seasonId}', name: 'season_show')]
+    #[Entity('program', options: ['id' => 'programId'])]
+    #[Entity('season', options: ['id' => 'seasonId'])]
+    public function showSeason(Program $program, Season $season, EpisodeRepository $episodeRepository) : Response
     {
-        $program= $programRepository->findOneById($programId);
-        $season = $seasonRepository->findOneById($seasonId);
         $episodes = $episodeRepository->findAll();
 
         return $this->render('program/season_show.html.twig', [
             'program' => $program,
             'season' => $season,
             'episodes' => $episodes
+        ]);
+    }
+
+
+    #[Route('/{programId}/season/{seasonId}/episode/{episodeId}', name: 'episode_show')]
+    #[Entity('program', options: ['id' => 'programId'])]
+    #[Entity('season', options: ['id' => 'seasonId'])]
+    #[Entity('episode', options: ['id' => 'episodeId'])]
+    public function showEpisode(Program $program, Season $season, Episode $episode, EpisodeRepository $episodeRepository) : Response
+    {
+
+        return $this->render('program/episode_show.html.twig', [
+            'program' => $program,
+            'season' => $season,
+            'episode' => $episode
         ]);
     }
 
