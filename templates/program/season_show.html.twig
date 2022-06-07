@@ -9,7 +9,9 @@
     <p>{{ program.synopsis }}</p>
     <p>{{ season.description}}</p>
     {% for episode in episodes %}
-        <p> {{ episode.title }}</p>
+        {% if season.id == episode.season.id %}
+            <p> {{ episode.title }}</p>
+        {% endif %}
     {% endfor %}
 </main>
 {% endblock %}
