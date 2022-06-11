@@ -20,7 +20,7 @@ class Episode
     private $number;
 
     #[ORM\Column(type: 'string', length: 255, nullable: true)]
-    private $synopsys;
+    private $synopsis;
 
     #[ORM\ManyToOne(targetEntity: Season::class, inversedBy: 'episodes')]
     #[ORM\JoinColumn(nullable: false)]
@@ -55,14 +55,14 @@ class Episode
         return $this;
     }
 
-    public function getSynopsys(): ?string
+    public function getSynopsis(): ?string
     {
-        return $this->synopsys;
+        return $this->synopsis;
     }
 
-    public function setSynopsys(?string $synopsys): self
+    public function setSynopsis(?string $synopsis): self
     {
-        $this->synopsys = $synopsys;
+        $this->synopsis = $synopsis;
 
         return $this;
     }
