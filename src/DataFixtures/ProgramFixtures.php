@@ -19,6 +19,7 @@ class ProgramFixtures extends Fixture implements DependentFixtureInterface
         $program1->setCategory($this->getReference('category_Comédie'));
         $program1->setCountry('USA');
         $program1->setYear('1994');
+        $program1->setPoster('http://images1.resources.foxtel.com.au/store2/mount1/16/3/85td8.jpg');
         $this->addReference('program_1', $program1);
         $manager->persist($program1);
         $program2 = new Program();

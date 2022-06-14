@@ -1,7 +1,7 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-    background-color: grey;
+    background-color: lightgrey;
 }
 
 .navbar{
@@ -15,4 +15,10 @@ body {
 footer {
     background-color: rgb(38,76,119);
     color : rgb(187,207,229);
+}
+
+.program_poster {
+    object-fit: cover;
+    width:14rem;
+    height:50%;
 }

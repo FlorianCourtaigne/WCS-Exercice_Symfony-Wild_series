@@ -4,13 +4,18 @@
 
 {% block body %}
 <main class="vh-100">
-    <h1 class="text-primary">{{ website }} index</h1>
-    {% for program in programs %}
-        <h2>{{loop.index}} / <a href="{{ path("program_show", { id: program.id }) }}">{{ program.title }}</a> - Catégorie : {{ program.category.name }}</h2>
-        <p>{{ program.synopsis }}</p>
-    {% else %}
-        Aucune série trouvée.
-    {% endfor %}
+    <h1 class="text-dark">{{ website }}</h1>
+    <div class="container row mx-auto">
+        {% for program in programs %}
+        <div class="container col-4 mx-auto">
+            <h2>{{loop.index}} / <a href="{{ path("program_show", { id: program.id }) }}">{{ program.title }}</a> - Catégorie : {{ program.category.name }}</h2>
+            <p>{{ program.synopsis }}</p>
+            <img class="program_poster" src="{{ program.poster }}" alt="program picture">
+        </div>
+        {% else %}
+            Aucune série trouvée.
+        {% endfor %}
+    </div>
 <a href="{{ path('app_index') }}">
     Retour à l'accueil
 </a>
