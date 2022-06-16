@@ -10,12 +10,10 @@
     </ul>
     <strong>Séries associées à {{ actor.firstname }} {{ actor.lastname }} :</strong>
     <ul>
-        {% for actor in actor.programs %}
-            <li>{{ actor.programs }}</li>
-        {% else %}
-            <li>Aucun acteur pour cette série</li>
+        {% for program in programs %}
+            <li><a href="{{ path("program_show", { programId: program.id }) }}">{{program.title}}</a></li>
         {% endfor %}
-    </ul>
+    </ul>    
     <a href="{{ path('app_index') }}">
         Retour à l'accueil
     </a>

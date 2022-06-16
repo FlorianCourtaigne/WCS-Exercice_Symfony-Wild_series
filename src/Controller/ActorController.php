@@ -9,6 +9,7 @@ use App\Repository\ProgramRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Entity;
 
 #[Route('/actor', name: 'actor_')]
 class ActorController extends AbstractController
@@ -21,16 +22,18 @@ class ActorController extends AbstractController
         ]);
     }
 
-    #[Route('/{id}', name: 'show', methods: ['GET'])]
-    public function show(int $id, Actor $actor, ProgramRepository $programRepository, ActorRepository $actorRepository): Response
+    #[Route('/{actorId}', name: 'show', methods: ['GET'])]
+    #[Entity('actor', options: ['id' => 'actorId'])]
+    #[Entity('program', options: ['id' => 'programId'])]
+    public function show(Actor $actor, Program $program): Response
     {
-
-        $actor = $actorRepository->findOneById($id);
-        $programs = $programRepository->findByActor($actor);
+        $results = $actor->getPrograms();
+        $programs = $results->toArray();
 
         return $this->render('actor/show.html.twig', [
             'actor' => $actor,
-            'programs' => $programRepository->findAll(),
+            'programs' => $programs,
+            'program' => $program
         ]);
     }
 }
