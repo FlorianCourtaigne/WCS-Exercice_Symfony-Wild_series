@@ -24,8 +24,7 @@ class ActorController extends AbstractController
 
     #[Route('/{actorId}', name: 'show', methods: ['GET'])]
     #[Entity('actor', options: ['id' => 'actorId'])]
-    #[Entity('program', options: ['id' => 'programId'])]
-    public function show(Actor $actor, Program $program): Response
+    public function show(Actor $actor): Response
     {
         $results = $actor->getPrograms();
         $programs = $results->toArray();
@@ -33,7 +32,6 @@ class ActorController extends AbstractController
         return $this->render('actor/show.html.twig', [
             'actor' => $actor,
             'programs' => $programs,
-            'program' => $program
         ]);
     }
 }
