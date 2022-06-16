@@ -12,7 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 #[ORM\Entity(repositoryClass: ProgramRepository::class)]
 #[UniqueEntity(
-    fields: 'title',
+    fields: ['title'],
     message: 'ce titre existe déjà',
 )]
 class Program
