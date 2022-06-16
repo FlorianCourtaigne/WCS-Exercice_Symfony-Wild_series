@@ -12,8 +12,8 @@ class ProgramType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options): void
     {
         $builder
-            ->add('title')
-            ->add('synopsis')
+            ->add('title', null, ['required' => false])
+            ->add('synopsis', null, ['required' => false])
             ->add('poster')
             ->add('country')
             ->add('year')
