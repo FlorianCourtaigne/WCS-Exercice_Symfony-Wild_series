@@ -5,9 +5,11 @@ namespace App\Controller;
 use App\Entity\Program;
 use App\Entity\Season;
 use App\Entity\Episode;
+use App\Entity\Actor;
 use App\Repository\SeasonRepository;
 use App\Repository\ProgramRepository;
 use App\Repository\EpisodeRepository;
+use App\Repository\ActorRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
@@ -57,7 +59,7 @@ class ProgramController extends AbstractController
     }
 
     #[Route('/show{id}', name: 'show')]
-    public function show(Program $program, SeasonRepository $seasonRepository) : Response
+    public function show(Program $program, SeasonRepository $seasonRepository, ActorRepository $actorRepository) : Response
     {
         
         if (!$program) {
@@ -67,10 +69,12 @@ class ProgramController extends AbstractController
         }
 
         $seasons = $seasonRepository->findall();
+        $actors = $actorRepository->findall();
 
         return $this->render('program/show.html.twig', [
             'program' => $program, 
-            'seasons' => $seasons
+            'seasons' => $seasons,
+            'actors' => $actors
     ]);
     }
 

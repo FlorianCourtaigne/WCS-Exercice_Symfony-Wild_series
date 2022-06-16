@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Wild Series{% endblock %}
+
+{% block body %}
+<main class="vh-100">
+    <strong>Acteur :</strong>
+    <ul>
+        <li>{{ actor.firstname }} {{ actor.lastname }}</li>
+    </ul>
+    <strong>Séries associées à {{ actor.firstname }} {{ actor.lastname }} :</strong>
+    <ul>
+        {% for program in programs %}
+            <li><a href="{{ path("program_show", { id: program.id }) }}">{{program.title}}</a></li>
+        {% endfor %}
+    </ul>    
+    <a href="{{ path('app_index') }}">
+        Retour à l'accueil
+    </a>
+</main>
+{% endblock %}
