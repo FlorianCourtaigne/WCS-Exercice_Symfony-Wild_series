@@ -5,9 +5,9 @@ namespace App\Service;
 class Slugify 
 
 {
-    public function generate(string $input): string
+    public function generate(string $title): string
     {
-        $this->str_replace(" ", "-", $input);
-        return $input;
+        $slug = str_replace(" ", "-", $title);
+        return $slug;
     }
 }

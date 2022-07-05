@@ -6,6 +6,7 @@ use App\Entity\Program;
 use App\Entity\Season;
 use App\Entity\Episode;
 use App\Entity\Actor;
+use App\Service\Slugify;
 use App\Repository\SeasonRepository;
 use App\Repository\ProgramRepository;
 use App\Repository\EpisodeRepository;
@@ -32,7 +33,7 @@ class ProgramController extends AbstractController
     }
 
     #[Route('/new', name: 'new')]
-    public function new(Request $request, ProgramRepository $programRepository): Response
+    public function new(Request $request, ProgramRepository $programRepository, Slugify $slugify): Response
     {
         $program = new Program();
 
@@ -42,6 +43,8 @@ class ProgramController extends AbstractController
         $form->handleRequest($request);
         // Was the form submitted ?
         if ($form->isSubmitted() && $form->isValid()) {
+            $slug = $slugify->generate($program->getTitle());
+            $program->setSlug($slug);
             $programRepository->add($program, true);            
 
             // Redirect to categories list
