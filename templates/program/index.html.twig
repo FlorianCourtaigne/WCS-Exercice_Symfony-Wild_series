@@ -3,11 +3,11 @@
 {% block title %}Wild Series{% endblock %}
 
 {% block body %}
-<main class="vh-100">
+<main class="">
     <h1 class="text-dark">{{ website }}</h1>
     <div class="container row mx-auto">
         {% for program in programs %}
-        <div class="container col-4 mx-auto">
+        <div class="container col-md-4 col-12">
             <h2>{{loop.index}} / <a href="{{ path("program_show", { id: program.id }) }}">{{ program.title }}</a> - Catégorie : {{ program.category.name }}</h2>
             <p>{{ program.synopsis }}</p>
             <img class="program_poster" src="{{ program.poster }}" alt="program picture">
